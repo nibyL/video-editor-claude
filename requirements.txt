@@ -1,0 +1,20 @@
+# --- Itération 0 : socle technique ---
+moviepy>=2.0.0,<3.0.0
+python-magic>=0.4.27          # détection de signature binaire, cf. FileValidator (CDC 8.4.1)
+loguru>=0.7.2
+
+# --- Tests ---
+pytest>=8.0.0
+pytest-cov>=5.0.0
+
+# --- Itération 2+ : interface graphique (décommenter le moment venu) ---
+# PySide6>=6.7.0
+
+# --- Itération 13+ : IA (décommenter le moment venu) ---
+# faster-whisper>=1.0.0
+# rembg>=2.0.50
+# opencv-python>=4.9.0
+
+# --- Packaging (décommenter à partir du jalon J2, CDC section 3.6) ---
+# nuitka>=2.0.0
+# pyinstaller>=6.0.0          # prototypage uniquement, itérations 0-3
